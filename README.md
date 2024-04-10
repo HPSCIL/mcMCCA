@@ -34,7 +34,7 @@ Folder "mcMCCA" contains the program and sample data for mcMCCA, including three
   - OpenWater.tif:  water body data of Wuhan city,  as "conversion constrains" 
 
 ## 4. To run
-0. You need to use [MCCA](https://github.com/HPSCIL/Mixed_Cell_Cellullar_Automata.git) for data preprocessing.
+0. You may need to use [MCCA](https://github.com/HPSCIL/Mixed_Cell_Cellullar_Automata.git) for data preprocessing.
 1. Edit the parameter file, primarily adjusting the data paths to match those on your computer.
 2. If you are running it on a single computer, use the following command to run the shell script file:  
 - $ ./runXXX.sh  
