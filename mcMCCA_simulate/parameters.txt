@@ -1,0 +1,42 @@
+mcMCCA_PARAMETER_START
+
+# Input classes
+CLASSES = 7
+
+# Input LULC
+STR_LULC = ../Data/LULCs/Xianning_2000_landuse_1.tif
+
+# Input Probability
+STR_DEVEL_POTEN = ../Data/DevelopmentPotential/result_band_1.tif
+
+# Output simulation
+STR_SIMUL_LULC = ../Data/Result/result1.tif
+
+# Number of Input Policy
+POLICY_NUMBER = 1
+
+# Input Policy
+STR_POLICY = ../Data/OpenWater.tif,4
+
+# Input Neighborhood
+NEIGHBOR = 3
+
+# How many years
+YEARS = 1
+
+# Patch generation
+PATCH_GENER = 0.1
+
+# Speed Parameters
+SPEED = 1,1,1,1,1,1,1
+
+# Transition matrix
+TRANS_MATRIX = 1,0,1,1,1,1,0;1,1,1,0,1,1,0;1,1,1,0,1,1,0;1,0,0,1,1,1,0;0,0,0,0,1,0,0;0,0,0,0,1,1,0;1,1,1,1,1,1,1
+
+# Years and corresponding demands
+DEMANDS = 1,0.350175,0.416448,0.0531915,0.123057,0.0305599,0.0215888,0.00497983
+
+# Percentage of Seeds
+SPEED_PERCENT = 0.1
+
+mcMCCA_PARAMETER_END

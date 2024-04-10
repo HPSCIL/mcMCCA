@@ -1,0 +1,30 @@
+mcMCCA_PARAMETER_START
+
+# Categories
+CLASSES = 7
+
+# Input LULC1
+STR_LULC1 = ../Data/LULCs/Xianning_2000_landuse_1.tif
+
+# Input LULC2
+STR_LULC2 = ../Data/LULCs/Xianning_2015_landuse_1.tif
+
+# Input Featrue folder
+STR_FOLDER = ../Data/DrivingFactor/
+
+# Output probability
+STR_PROB = ../Data/DevelopmentPotential/result.tif
+
+# Input sampling rate
+RATE = 0.1
+
+# mTry
+MTRY = 9
+
+# Input the number of trees 20~100
+TREES = 100
+
+# Input thread count
+THREAD = 7
+
+mcMCCA_PARAMETER_END
