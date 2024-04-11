@@ -30,8 +30,8 @@ Folder "mcMCCA" contains the program and sample data for mcMCCA, including three
   - runmcMCCA.sh:   Shell file to run the program
 - Data/:            Test data
   - DrivingFactor/: The driving factors of land use changes
-  - LULCs/:         Land use maps and land expansion map
-  - OpenWater.tif:  water body data of Wuhan city,  as "conversion constrains" 
+  - LULCs/:         Land use maps
+  - OpenWater.tif:  water body data, used as "conversion constrains" 
 
 ## 4. To run
 0. You may need to use [MCCA](https://github.com/HPSCIL/Mixed_Cell_Cellullar_Automata.git) for data preprocessing.
